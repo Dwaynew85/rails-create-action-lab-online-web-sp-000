@@ -12,10 +12,10 @@ class StudentsController < ApplicationController
   end
 
   def create
-    @student = Student.new 
+    @student = Student.new
     @student.first_name
-    @student.last_name 
-    @studetn.save 
+    @student.last_name
+    @studetn.save
     redirect_to student_path(@student)
   end
 

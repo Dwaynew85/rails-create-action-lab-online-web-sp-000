@@ -15,7 +15,7 @@ class StudentsController < ApplicationController
     @student = Student.new
     @student.first_name
     @student.last_name
-    @studetn.save
+    @student.save
     redirect_to student_path(@student)
   end
 
